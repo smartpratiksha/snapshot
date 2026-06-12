@@ -10,7 +10,7 @@
     <meta name="author" content="Durvasa Infotech">
 	<meta property="og:image" content="src/jitologo.png" />
 	<meta property="og:title" content="JITO Saksham Mega Exhibition 2026 " />
-	<meta property="og:description" content="Saksham Exhibition on 14 & 15th July at Maheshwari Bhavan , Citylight Surat " />
+	<meta property="og:description" content="Saksham Exhibition on 16 & 17th June at TVH Lumbini Square , Brick Klin Road,Purasaiwakkam " />
 
     <link rel="stylesheet" href="style.css"/>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
@@ -39,7 +39,7 @@
 			<div class="col-md-12">
 
 				<div class="py-0 text-center"  >
-					<h2 style="background: #EF8A0D" class=" rounded text-light pb-2 pt-2"> Terapanth Mahila Mandal, Surat- Selfie Maker</h2>
+					<h2 style="background: #EF8A0D" class=" rounded text-light pb-2 pt-2"> Terapanth Mahila Mandal, Kilpauk- Selfie Maker</h2>
 				</div>
 				
 				
@@ -158,8 +158,8 @@ document.querySelector('button[name="btnInsertAdd"]').addEventListener('click', 
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
 
-    canvas.width = 1080;
-    canvas.height = 1350;
+    canvas.width = 1120;
+    canvas.height = 1600;
 
     // FRAME IMAGE (CORS FIX)
     const frame = new Image();
@@ -177,9 +177,9 @@ document.querySelector('button[name="btnInsertAdd"]').addEventListener('click', 
 
         userPhoto.onload = function () {
 
-            const circleX = 778;
-            const circleY = 973;
-            const radius = 275;
+            const circleX = 806;
+            const circleY = 1147;
+            const radius = 294;
 
             ctx.save();
             ctx.beginPath();
@@ -201,7 +201,7 @@ document.querySelector('button[name="btnInsertAdd"]').addEventListener('click', 
             const boxCenterX = boxLeft + boxWidth / 2;
 
             ctx.font = "bold 48px Poppins";
-            ctx.fillStyle = "#EF8A0D";
+            ctx.fillStyle = "#ffffff";
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
 
@@ -213,7 +213,7 @@ document.querySelector('button[name="btnInsertAdd"]').addEventListener('click', 
                 ctx.font = `bold ${fontSize}px Poppins`;
             }
 
-            ctx.fillText(userName, boxCenterX, 1290);
+            ctx.fillText(userName, boxCenterX, 1530);
 
             // ✅ NOW SAFE
             const link = document.createElement('a');
